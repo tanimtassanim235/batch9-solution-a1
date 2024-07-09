@@ -200,9 +200,12 @@ h1 {
   position: absolute;
   z-index: 1;
 }
-.discount {
+.off {
   border: 2px solid red;
   position: absolute;
   bottom: 30%;
   left: 50%;
+  z-index: 1;
+  display: flex;
+ justify-content: space-around;
 }
